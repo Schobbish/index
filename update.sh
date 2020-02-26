@@ -7,7 +7,7 @@
 cd "$(dirname "$0")"
 
 git pull -q
-python3 update.py 8809b90f213a76269865d00c8379377f5a356a37
+python3 update.py $1
 git add .
-git commit -qm "bot commit $(date)"
+git commit -q -m "bot commit $(date)"
 git push -q
