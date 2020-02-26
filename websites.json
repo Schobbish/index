@@ -60,8 +60,7 @@
     "index": {
         "name": "index (here)",
         "public": true,
-        "repo": "Schobbish/schobbish.github.io",
-        "path": "index/",
+        "repo": "Schobbish/index",
         "size": "9.2K"
     },
     "large": {

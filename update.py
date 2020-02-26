@@ -58,7 +58,7 @@ for websiteName in sortedWebsiteNames:
 
 # write timestamp
 modifiedDates["timestamp"] = datetime.datetime.utcnow().isoformat(
-    timespec="seconds")
+    timespec="seconds") + "Z"
 # write to file
 open("modifiedDates.json", "w").write(
     json.dumps(modifiedDates, sort_keys=True, indent=4))
