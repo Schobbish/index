@@ -1,0 +1,143 @@
+{
+    "about": {
+        "name": "about",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "about/",
+        "size": "681 "
+    },
+    "archive": {
+        "name": "archive",
+        "public": false,
+        "repo": "Schobbish/archive",
+        "size": "78K "
+    },
+    "calc": {
+        "name": "calc",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "calc/",
+        "size": "642 "
+    },
+    "catalog": {
+        "name": "catalog",
+        "public": true,
+        "repo": "Schobbish/catalog",
+        "size": "126K"
+    },
+    "chess": {
+        "name": "chess",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "chess/",
+        "size": "119K"
+    },
+    "clock": {
+        "name": "clock",
+        "public": true,
+        "repo": "Schobbish/clock",
+        "size": "196K"
+    },
+    "codedotorg": {
+        "name": "codedotorg",
+        "public": true,
+        "repo": "Schobbish/codedotorg",
+        "size": "4.3K"
+    },
+    "dog": {
+        "name": "dog",
+        "public": true,
+        "repo": "Schobbish/dog",
+        "size": "24K "
+    },
+    "duck": {
+        "name": "duck (old index)",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "duck/",
+        "size": "204K"
+    },
+    "index": {
+        "name": "index (here)",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "index/",
+        "size": "9.2K"
+    },
+    "large": {
+        "name": "large",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "large/",
+        "size": "57K "
+    },
+    "library": {
+        "name": "library",
+        "public": false,
+        "repo": "Schobbish/library",
+        "size": "11K "
+    },
+    "monokai": {
+        "name": "monokai",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "monokai/",
+        "size": "8.4K"
+    },
+    "nesbox": {
+        "name": "nesbox",
+        "public": false,
+        "repo": "Schobbish/nesbox",
+        "size": "119K"
+    },
+    "no": {
+        "name": "no.pdf",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "no.pdf",
+        "size": "6.0K",
+        "altIcon": {
+            "src": "assets/layout.gif",
+            "alt": "[ ]"
+        }
+    },
+    "projector": {
+        "name": "projector (redirect)",
+        "public": true,
+        "repo": "Schobbish/projector",
+        "size": "824 "
+    },
+    "sam": {
+        "name": "sam",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "sam/",
+        "size": "115K"
+    },
+    "tastris": {
+        "name": "tastris",
+        "public": false,
+        "repo": "Schobbish/minesweeper",
+        "path": "tastris/",
+        "size": "373K"
+    },
+    "tester": {
+        "name": "tester",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "tester/",
+        "size": "93K "
+    },
+    "tex-public": {
+        "name": "tex-public",
+        "public": true,
+        "repo": "Schobbish/tex-public",
+        "size": "76K "
+    },
+    "whenisnathanworking": {
+        "name": "whenisnathanworking",
+        "public": true,
+        "repo": "Schobbish/whenisnathanworking",
+        "size": "98K "
+    }
+}

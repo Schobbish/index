@@ -1,0 +1,13 @@
+body {
+   /* to actually resize text on ios */
+   -webkit-text-size-adjust: 100%;
+}
+th, td {
+    padding-right: 5px;
+    border-spacing: 0;
+    vertical-align: text-top;
+    font-size: 16px;
+}
+footer p, footer a {
+    font-size: 16px;
+}
