@@ -2,7 +2,7 @@
 # pass Personal Access Token as first arg to the script please
 # do NOT store personal access token in this repo.
 # this script is quiet - it only prints if there are errors.
-# consider running index-update.py to have changes automatically pushed
+# consider running update.py to have changes automatically pushed
 import datetime
 import json
 import sys
