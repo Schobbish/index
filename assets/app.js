@@ -72,11 +72,11 @@ $.getJSON("websites.json", function (websites) {
     </th>
 </tr>`);
             // build disclaimer
-            var address = "Some server at schobbish.com\n";
-            address += "Modification dates last updated automatically: " +
-                modifiedDates.timestamp + "\n";
+            var address = "Some server at schobbish.com. ";
+            address += "Modification dates last updated automatically at " +
+                modifiedDates.timestamp + ". ";
             address += "Sizes do not get automatically updated. "
-            address += "Last size update: 2020-02-25T07:53:00Z"
+            address += "Last size update at 2020-02-25T07:53:00Z."
             $("address").html(address)
         });
     }).fail(function () {
