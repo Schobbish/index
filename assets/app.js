@@ -66,17 +66,18 @@ $.getJSON("websites.json", function (websites) {
 </tr>`);
             }
             // append hr
-            $("tbody:first").append(`<tr class="indexbreakrow">
+            $("tbody:first").append(`
+<tr class="indexbreakrow">
     <th colspan="4">
         <hr>
     </th>
 </tr>`);
             // build disclaimer
             var address = "Some server at schobbish.com. ";
-            address += "Modification dates last updated automatically at " +
-                modifiedDates.timestamp + ". ";
+            address += "Modification dates are updated automatically every Sunday morning at 03:14 UTC. "
+            address += "Modification dates were last updated at " + modifiedDates.timestamp + ". ";
             address += "Sizes do not get automatically updated. "
-            address += "Last size update at 2020-02-25T07:53:00Z."
+            address += "Sizes were last updated at 2020-02-25T07:53:00Z."
             $("address").html(address)
         });
     }).fail(function () {
