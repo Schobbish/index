@@ -9,5 +9,5 @@ cd "$(dirname "$0")"
 git pull -q
 python3 update.py $1
 git add .
-git commit -q -m "bot commit $(date)"
+git commit -q -m "bot commit $(date -u "+%Y-%m-%dT%H:%M:%SZ")"
 git push -q
