@@ -1,4 +1,15 @@
 {
+    "9oclock": {
+        "name": "9oclock",
+        "public": true,
+        "repo": "Schobbish/schobbish.github.io",
+        "path": "index.html",
+        "size": "118K",
+        "altIcon": {
+            "src": "assets/back.gif",
+            "alt": "[PARENTDIR]"
+        }
+    },
     "about": {
         "name": "about",
         "public": true,
@@ -61,7 +72,7 @@
         "name": "index (here)",
         "public": true,
         "repo": "Schobbish/index",
-        "size": "9.2K"
+        "size": "115K"
     },
     "large": {
         "name": "large",
