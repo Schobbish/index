@@ -1,6 +1,6 @@
 {
     "9oclock": {
-        "name": "9oclock",
+        "name": "9oclock (actual index)",
         "public": true,
         "repo": "Schobbish/schobbish.github.io",
         "path": "index.html",
@@ -53,7 +53,7 @@
         "name": "codedotorg",
         "public": true,
         "repo": "Schobbish/codedotorg",
-        "size": "109K"
+        "size": "94K"
     },
     "dog": {
         "name": "dog",
