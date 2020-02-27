@@ -151,7 +151,6 @@ $.getJSON("websites.json", function (websites) {
             address += "Modification dates are updated automatically every Sunday morning at 03:14 UTC. ";
             address += "They were last updated at " + modifiedDates.timestamp + ". ";
             address += "Sizes do not get automatically updated. ";
-            address += "They were last updated at 2020-02-25T07:53:00Z.";
             $("address").html(address);
         });
     }).fail(function () {
