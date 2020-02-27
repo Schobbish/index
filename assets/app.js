@@ -5,13 +5,13 @@ $.ajaxSetup({ cache: false });
  * @param {string} size Stylized size in form x[KMG], where x is a float.
  */
 function sizeUnstyler(size) {
-    const unit = size.trim().toUpperCase().slice(-1)
+    const unit = size.trim().toUpperCase().slice(-1);
     if (unit === "K") {
-        return parseFloat(size) * 1024
+        return parseFloat(size) * 1024;
     } else if (unit === "M") {
-        return parseFloat(size) * 1048576
+        return parseFloat(size) * 1048576;
     } else if (unit === "G") {
-        return parseFloat(size) * 1073741824
+        return parseFloat(size) * 1073741824;
     } else {
         return parseFloat(size);
     }
@@ -73,7 +73,7 @@ $.getJSON("websites.json", function (websites) {
                     if (reverseOrder) {
                         sortedWebsiteNames.reverse();
                     } else {
-                        $(".indexhead .indexcollastmod a").prop("href", "?C=M;O=D")
+                        $(".indexhead .indexcollastmod a").prop("href", "?C=M;O=D");
                     }
                     break;
                 case "S":
@@ -92,7 +92,7 @@ $.getJSON("websites.json", function (websites) {
                     if (reverseOrder) {
                         sortedWebsiteNames.reverse();
                     } else {
-                        $(".indexhead .indexcolsize a").prop("href", "?C=S;O=D")
+                        $(".indexhead .indexcolsize a").prop("href", "?C=S;O=D");
                     }
                     break;
                 case "N":
@@ -134,7 +134,9 @@ $.getJSON("websites.json", function (websites) {
                 // index last modify date needs to be corrected
                 const lastModifiedDate = websiteName === "index" ? modifiedDates.timestamp
                     : (modifiedDates.websites[websiteName] ? modifiedDates.websites[websiteName]
-                        : "Error getting modification date.");
+                        : "\xa0");
+                const size = website.size ? website.size : "  - ";
+                const description = website.description ? website.description : "\xa0";
 
                 // append to table
                 $(".indexbreakrow:last").before(`
@@ -142,7 +144,8 @@ $.getJSON("websites.json", function (websites) {
     <td class="indexcolicon"><img src="${icon.src}" alt="${icon.alt}"></td>
     <td class="indexcolname"><a href="${link}">${website.name}</a></td>
     <td class="indexcollastmod">${lastModifiedDate}</td>
-    <td class="indexcolsize">${website.size}</td>
+    <td class="indexcolsize">${size}</td>
+    <td class="indexcoldesc">${description}</td>
 </tr>`);
             }
 

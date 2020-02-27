@@ -5,6 +5,7 @@
         "repo": "Schobbish/schobbish.github.io",
         "path": "index.html",
         "size": "118K",
+        "description": "This is a longer description so that I might have to scroll longer.",
         "altIcon": {
             "src": "assets/back.gif",
             "alt": "[PARENTDIR]"
