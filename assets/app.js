@@ -28,7 +28,7 @@ $.getJSON("websites.json", function (websites) {
     * @property {string} [path] Path to main index file within its repo.
     *  If not given, the main index file is at the root of the repo.
     * @property {string} size Size of resources required to load website.
-    * @property {Object} altIcon Alternative icon if needed.
+    * @property {Object} [altIcon] Alternative icon if needed.
     * @property {string} altIcon.src Image URL
     * @property {string} altIcon.alt Image alt text
     */
