@@ -74,6 +74,12 @@
         "repo": "Schobbish/index",
         "size": "100K"
     },
+    "jp-rail-symbols": {
+        "name": "jp-rail-symbols",
+        "public": true,
+        "repo": "Schobbish/jp-rail-symbols",
+        "size": "254K"
+    },
     "large": {
         "name": "large",
         "public": true,
@@ -110,6 +116,12 @@
             "src": "assets/layout.gif",
             "alt": "[ ]"
         }
+    },
+    "portfolio": {
+        "name": "portfolio",
+        "public": true,
+        "repo": "Schobbish/portfolio",
+        "size": "319K"
     },
     "projector": {
         "name": "projector (redirect)",
